@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(135, 110, 110);
+        }
+
+        .especial::before {
+            content: '  →  ' ;
+        }
+
+        .especial::after {
+            content: '  ←  ' ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/vinicius.matheus.7923030/" class="especial" target=>Meu Facebook</a></li>
+        
+        
+        <li><a href="https://www.linkedin.com/in/vinicius-matheus-569650216/" target="_blank">Meu Linkedin</a></li>
+        
+        
+        <li><a href="https://www.instagram.com/viniicius_tss/" target="_blank">Meu Instagram</a></li>
+    </ul>
+</body>
+</html>

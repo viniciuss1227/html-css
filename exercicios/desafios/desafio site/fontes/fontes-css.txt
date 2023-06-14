@@ -1,0 +1,11 @@
+Comic Sans Regular :
+@import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+
+BANGERS :
+@import url(//db.onlinewebfonts.com/c/36cfbe58588c147ce392e4802c9f7dbf?family=Bangers);
+
+KOMIKA AXIS V2 :
+@import url(//db.onlinewebfonts.com/c/948114af9fe60735a6de25fa281c190c?family=Komika+Axis);
+
+FONTE PADRÃO :
+ Arial, Helvetica ou Times New Roman
